@@ -1,0 +1,19 @@
+{
+  "name": "es6-boilerplate",
+  "version": "0.0.1",
+  "description": "ES6 template with import-map support",
+  "main": "index.js",
+  "author": "Elias Rhouzlane",
+  "license": "MIT",
+  "dependencies": {
+    "es-module-shims": "^0.4.6"
+  },
+  "devDependencies": {
+    "snowpack": "^1.6.0"
+  },
+  "snowpack": {
+    "webDependencies": [
+      "es-module-shims"
+    ]
+  }
+}
