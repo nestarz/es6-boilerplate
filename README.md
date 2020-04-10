@@ -15,6 +15,7 @@ python -m http.server 8080 --bind 127.0.0.1
 ```bash
 yarn
 yarn add three
+# You have to update package.json and add three to webDependencies manually, then
 node_modules/.bin/snowpack --optimize --clean
 ```
 
