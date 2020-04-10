@@ -10,7 +10,7 @@
 python -m http.server 8080 --bind 127.0.0.1
 ```
 
-## Manage Depedencies using Snowpack
+## Manage Dependencies using Snowpack
 
 ```bash
 yarn
