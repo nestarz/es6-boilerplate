@@ -1,6 +1,7 @@
 {
   "imports": {
     "src/": "./",
+    "components/": "./components/",
     "assets/": "../assets/"
   }
 }

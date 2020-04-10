@@ -1,5 +1,6 @@
 {
   "imports": {
+    "construct-style-sheets-polyfill": "./construct-style-sheets-polyfill.js",
     "es-module-shims": "./es-module-shims.js"
   }
 }

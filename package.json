@@ -6,6 +6,7 @@
   "author": "Elias Rhouzlane",
   "license": "MIT",
   "dependencies": {
+    "construct-style-sheets-polyfill": "^2.3.5",
     "es-module-shims": "^0.4.6"
   },
   "devDependencies": {
@@ -13,7 +14,8 @@
   },
   "snowpack": {
     "webDependencies": [
-      "es-module-shims"
+      "es-module-shims",
+      "construct-style-sheets-polyfill"
     ]
   }
 }
