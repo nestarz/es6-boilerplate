@@ -15,7 +15,7 @@ python -m http.server 8080 --bind 127.0.0.1
 ```bash
 yarn
 yarn add three
-snowpack --optimize --clean
+node_modules/.bin/snowpack --optimize --clean
 ```
 
 ```javascript
