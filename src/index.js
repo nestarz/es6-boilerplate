@@ -1,8 +1,9 @@
-import importedMap from "src/import-map.json";
 import "components/Hello/index.js";
 
-document.body.appendChild(document.createElement("hello-world"));
-document.body.appendChild(
+import importedMap from "src/import-map.json";
+
+document.body.append(
+  document.createElement("hello-world"),
   Object.assign(document.createElement("pre"), {
     innerText: JSON.stringify(importedMap),
   })

@@ -1,6 +1,6 @@
 # ES6 Template
 
-- [x] ES6 with Module, Import Maps, JSON Imports
+- [x] ES6 with Module, Import Maps, JSON Imports and CSSStyleSheet, ...
 - [x] Zero Build Step
 
 ## Run
