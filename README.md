@@ -11,10 +11,13 @@ python -m http.server 8080 --bind 127.0.0.1
 ```
 
 ## Manage Depedencies using Snowpack
-Example
 
 ```bash
 yarn
 yarn add three
 snowpack --optimize --clean
+```
+
+```javascript
+import * as THREE from "three"
 ```
