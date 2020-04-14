@@ -1,6 +1,7 @@
 # ES6 Template
 
 - [x] ES6 with Module, Import Maps, JSON Imports and CSSStyleSheet, ...
+- [x] WASM Integration
 - [x] Zero Build Step
 - [x] Package Management using Snowpack
 
@@ -21,4 +22,12 @@ node_modules/.bin/snowpack --optimize --clean
 
 ```javascript
 import * as THREE from "three"
+```
+
+## WASM Build
+
+```bash
+cd src/wasm/
+
+wasm-pack build --target browser
 ```
