@@ -1,9 +1,9 @@
 # ES6 Template
 
 - [x] ES6 with Module, Import Maps, JSON Imports and CSSStyleSheet, ...
-- [x] Rust to WASM Integration
-- [x] Zero Build Step (except Rust to WASM build)
+- [x] Zero Build Step
 - [x] Package Management using Snowpack
+- [x] (Optional) Rust to WASM Build Integration
 
 ## Run
 
