@@ -2,6 +2,7 @@
   "imports": {
     "src/": "./",
     "components/": "./components/",
-    "assets/": "../assets/"
+    "assets/": "../assets/",
+    "wasm/": "./wasm/pkg/"
   }
 }
